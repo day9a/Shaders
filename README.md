@@ -1,2 +1,2 @@
 # Shaders
-a few examples of shaders
+Examples of few shaders.
