@@ -4,7 +4,7 @@ Shader "Custom/MotionVectorSimple"
     Properties
     {
         _MainTex ("Sprite Sheet", 2D) = "white" {}
-        _MotionVectors ("Motion Vectors", 2D) = "white" {}
+        _MotionVectors ("Motion Vectors", 2D) = "gray" {}
         _Strength ("Strength", Range(0, 0.03)) = 0.01
     }
 
