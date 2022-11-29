@@ -1,4 +1,4 @@
-// adaptation from example (Technique 3):
+// based on example 3:
 // https://iquilezles.org/articles/texturerepetition/
 Shader "Custom/DiffuseTextureRandomizer"
 
