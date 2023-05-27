@@ -62,8 +62,8 @@ Shader "Custom/FakePipe"
             // CH - perpendicular drawn from C to side AD (altitude)
             // CD - pipe radius (r)
             float CH = cross(uv2.xyy, inc.xyy).z;                            
-            float CB = dot(uv2, inc);
-            float AD = CB - sqrt( abs(r - CH * CH));                        // full ray length projected under surface
+            float AH = dot(uv2, inc);
+            float AD = AH - sqrt( abs(r - CH * CH));                        // full ray length projected under surface
             float2 wall = uv2 - inc * AD;                                   // pipe walls position
             // Pipe depth
             float up = dot(vDir.xzy, float3(0.0, 0.0, 1.0));                // vDir vs up vector
