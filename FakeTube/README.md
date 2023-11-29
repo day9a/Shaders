@@ -1,12 +1,12 @@
 # FakeTube shader guide
 
-<img src="imgs/ft_row.jpg" alt="result" width="640" height="75">
-
 Single face FakeTube shader. It can be used as a flat decal snap to walls, floor or any objects to improve scenes details.
 
 Full version: ---
 
-Free example: [FakeTube_free.blend](FakeTube_free.blend) 
+Blender Free example: [FakeTube_free.blend](FakeTube_free.blend) 
+Unity   Free example: [FakeTube_free.blend](FakeTube_free.blend) 
+Place it in the Unity\Projects\YourProjects\Assets folder.
 
 <img src="imgs/ft_0_Preview.gif" alt="result" width="256" height="256">
 
