@@ -1,19 +1,25 @@
 # FakeTube shader guide
 
-Single face FakeTube shader. It can be used as a flat decal snap to walls, floor or any objects to improve scenes details.
+Single quad FakeTube shader. It can be used as a flat decal snap to walls, floor or any objects to improve scenes details.
 
 Full version: ---
 
 Blender free example: [FakeTube_free.blend](FakeTube_free.blend) </br>
-Unreal coming: --- </br>
-Unity free example: [FakeTubeFree_Built-in.unitypackage](FakeTubeFree_Built-in.unitypackage)  (unpack to Unity\Projects\YourProjects\Assets) </br>
+Unreal free example: --- </br>
+Unity free example: [FakeTubeFree_Built-in.unitypackage](FakeTubeFree_Built-in.unitypackage)  (unpack to Unity\Projects\YourProjects\Assets) (v2019-2023)</br>
+
+Features:
+&emsp; Like a FakeInterior, but it's FakeTube!
+&emsp; Some visual effects like a fog, heat, distortion, parallax, rotation, light emitting. 
+&emsp; No need to change scene geometry.
+&emsp; Fully computed in shader including animation.
 
 <img src="imgs/cube_preview.gif" alt="result" width="256" height="256">
 
 ---
 
 
-<details><summary>Shader setting:</summary>
+<details><summary>All setting:</summary>
   
 <img src="imgs/FakeTubeProperties.png" alt="result" width="512">
 
