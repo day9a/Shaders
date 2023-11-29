@@ -13,10 +13,11 @@ Unity free example: [FakeTubeFree_Built-in.unitypackage](FakeTubeFree_Built-in.u
 
 <img src="imgs/cube_preview.gif" alt="result" width="256" height="256">
 
-> Uses usual PBR textures with metallic workflow.  
-> Assumes that quad orientation conform with a standart Unity quad (GameObject > 3DObject > Quad)  
-> Work with Unity orthographic camera.  
-> (!)Shader can't get shadows from outside to inside and uses FakeShadows that can be adjusted. By default they are set from top to bottom.  
+> - Uses usual PBR textures with metallic workflow.  
+> - Assumed that quad orientation conform with a standart Unity quad (GameObject > 3DObject > Quad)  
+> - Works with Unity orthographic camera.
+> - All animation handling in-shader  
+> - (!) Shader can't get shadows from outside to inside and uses FakeShadows that can be adjusted with properties. By default they are set from top to bottom.  
 
 
 
