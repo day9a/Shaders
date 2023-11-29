@@ -4,9 +4,9 @@ Single face FakeTube shader. It can be used as a flat decal snap to walls, floor
 
 Full version: ---
 
-Blender Free example: [FakeTube_free.blend](FakeTube_free.blend) </br>
-Unity   Free example: [FakeTubeFree_Built-in.unitypackage](FakeTubeFree_Built-in.unitypackage) </br>
-Unpack to Unity\Projects\YourProjects\Assets
+Blender free example: [FakeTube_free.blend](FakeTube_free.blend) </br>
+Unreal coming: --- </br>
+Unity free example: [FakeTubeFree_Built-in.unitypackage](FakeTubeFree_Built-in.unitypackage)  (unpack to Unity\Projects\YourProjects\Assets) </br>
 
 <img src="imgs/cube_preview.gif" alt="result" width="256" height="256">
 
@@ -26,26 +26,6 @@ Unpack to Unity\Projects\YourProjects\Assets
 
 </details>
 
-
-<details><summary>How make new textures:</summary>
-
-text
-
-</details>
-
-
-<details><summary>How make material copy:</summary>
-
-<img src="imgs/ShaderEditorNewMat.png" alt="result">
-
-</details>
-
-
-<details><summary>Hints:</summary>
-
-text
-
-</details>
 
 <details><summary>Perfomance:</summary>
 
