@@ -1,9 +1,9 @@
 # FakeTube shader guide
-
+  
 Single quad FakeTube shader.  
 Like a FakeInterior, but it's FakeTube!  
 It can be used as a flat decal snap to walls, floor or any objects to improve scenes details.  
-
+  
 Full version: ---
 
 - Blender free example: [FakeTube_free.blend](FakeTube_free.blend)  
@@ -20,16 +20,26 @@ Features:
 ---
 
 
-<details><summary>All setting:</summary>
+<details><summary>FakeTube properties / How it works:</summary>
   
-<img src="imgs/FakeTubeProperties.png" alt="result" width="512">
+<br>
 
-</details>
+> highlighted in red depend on the current texture and is already configured.  
+> highlighted in green can be adjusted slightly.  
+> highlighted in blue - shadow can be adjusted depending on the light source in the scene.  
 
+<br>
+<img src="imgs/FakeTubeProperties.png" alt="result" width="512">  
+<br>
+<br>
 
-<details><summary>How it works:</summary>
+> Tube separated to 5 parts: Top, Bottom, Walls, Gate A, Gate B where each part of the tube is match each part of the texture.  
+> In general, it looks a UV unwrap.  
+> Parts interact with each other only in a certain way for reasons of perfomance/optimization.
 
-<video src="https://github.com/day9a/Blender/assets/69633736/e3bc3dc9-e9fb-4b5c-b8b7-97f5b19822be" width="256" height="256">
+<br>
+<video src="https://github.com/day9a/Blender/assets/69633736/e3bc3dc9-e9fb-4b5c-b8b7-97f5b19822be" width="256" height="256">  
+<br>
 
 </details>
 
