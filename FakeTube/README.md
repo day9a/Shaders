@@ -10,7 +10,16 @@ It can be used as a flat decal snap to walls, floor or any objects to improve sc
 🔷 ` Unity free example: ` [FakeTubeFree_Built-in.unitypackage](FakeTubeFree_Built-in.unitypackage)  (unpack to Unity\Projects\YourProjects\Assets) (v2019-2023)  
  <br> 
 
-<img src="imgs/cube_preview.gif" alt="result" width="256" height="256">
+<table>
+  <tr>
+    <td> 
+    <img src="imgs/cube_preview.gif" alt="result" width="256" height="256"> 
+    </td>
+    <td>
+    <img src="imgs/ft_0_Preview.gif" alt="result" width="256" height="256"> 
+    </td>
+  </tr>
+</table>
 <br>
 
 > - Uses usual PBR textures with metallic workflow.  
