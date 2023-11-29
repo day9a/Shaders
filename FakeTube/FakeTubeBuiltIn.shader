@@ -315,7 +315,7 @@ Shader "Custom/FakeTubeBuildIn"
             half4 gatesshadows = GatesShadows(uv_pxa, uv_pxb, _AngleX);
 
             half switchdeep = _GateBDepth > bottom;                     // if gateB is deeper than bottom, than gates A and B change their behavior (uses for window)
-            half GateB_switchdeep = mask_gateb > lerp(1.0 - mask_top, 1.0 - mask_top * mask_bottom, switchdeep); // CHECK mask_gateb double > > less than?
+            half GateB_switchdeep = mask_gateb > lerp(1.0 - mask_top, 1.0 - mask_top * mask_bottom, switchdeep);
             half gatea2bshadow = tex2D(_MainTex, gatesshadows.zw).a * _FakeShadow;
             half gatebshadow =  min(saturate(GateB_switchdeep - gatea2bshadow), gatesshadows.y);
             half gateashadow = saturate(gatesshadows.x + (_GateADepth < 0.05));  // if gateA has no depth then no shadow
