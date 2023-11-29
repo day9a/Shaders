@@ -27,7 +27,7 @@ Unity free example: [FakeTubeFree_Built-in.unitypackage](FakeTubeFree_Built-in.u
 </details>
 
 
-<details><summary>Perfomance:</summary>
+<details><summary>Performance/Requirements:</summary>
 
 text
 
