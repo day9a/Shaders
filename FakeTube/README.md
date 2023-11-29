@@ -7,7 +7,7 @@ It can be used as a flat decal snap to walls, floor or any objects to improve sc
 🔷 ` Full version: ` -  
 🔷 ` Blender free example: `  [FakeTube_free.blend](FakeTube_free.blend)  
 🔷 ` Unreal free example: ` *coming soon*   
-🔷 ` Unity free example: ` [FakeTubeFreeBuiltIn.unitypackage](FakeTubeFreeBuiltIn.unitypackage)  (unpack to Unity\Projects\YourProjects\Assets) (v2019-2023)  
+🔷 ` Unity free example: ` [FakeTubeFreeBuiltIn.unitypackage](FakeTubeFreeBuiltIn.unitypackage)  (unpack to Unity\Projects\YourProjects\Assets) (v2021-2023)  
  <br> 
 
 <table>
@@ -19,7 +19,8 @@ It can be used as a flat decal snap to walls, floor or any objects to improve sc
     <img src="imgs/ft_0_Preview.gif" alt="result" width="256" height="256"> 
     </td>
     <td>
-     <a href="https://www.youtube.com/"> 🔹 Youtube Preview 🔹 <a>
+     <a href="https://www.youtube.com/watch?v=IX7JCYn0P-Q"> 🔹 Youtube Preview 1 🔹 <a>  <br>
+     <a href="https://www.youtube.com/watch?v=EOUz8D6mYzk"> 🔹 Youtube Preview 2 🔹 <a>
     </td>
   </tr>
 </table>
