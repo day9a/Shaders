@@ -15,7 +15,7 @@ Unpack to Unity\Projects\YourProjects\Assets
 
 <details><summary>Shader setting:</summary>
   
-<img src="imgs/FakeTubeProperties.png" alt="result">
+<img src="imgs/FakeTubeProperties.png" alt="result" width="512">
 
 </details>
 
