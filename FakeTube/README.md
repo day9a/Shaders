@@ -13,6 +13,13 @@ Unity free example: [FakeTubeFree_Built-in.unitypackage](FakeTubeFree_Built-in.u
 
 <img src="imgs/cube_preview.gif" alt="result" width="256" height="256">
 
+> Uses usual PBR textures with metallic workflow.  
+> Assumes that quad orientation conform with a standart Unity quad (GameObject > 3DObject > Quad)  
+> Work with Unity orthographic camera.  
+> (!)Shader can't get shadows from outside to inside and uses FakeShadows that can be adjusted. By default they are set from top to bottom.  
+
+
+
 ---
 
 <details><summary>All properties / How it works:</summary>
@@ -24,9 +31,9 @@ Unity free example: [FakeTubeFree_Built-in.unitypackage](FakeTubeFree_Built-in.u
     </td>
     <td>
       FakeTube properties:  <br>
-      - highlighted in red depend on the current texture and is already configured.  <br>
-      - highlighted in ${\textsf{\color{lightgreen}Green}}$ can be adjusted slightly.  <br>
-      - highlighted in blue - shadow can be adjusted depending on the light source in the scene.  <br>
+      - highlighted in Red depend on the current texture and is already configured.  <br>
+      - highlighted in Green can be adjusted slightly.  <br>
+      - highlighted in Blue - shadow can be adjusted depending on the light source in the scene.  <br>
        <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>  <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>  <br>
     </td>
   </tr>
