@@ -25,11 +25,12 @@ It can be used as a flat decal snap to walls, floor or any objects to improve sc
 </table>
 <br>
 
-> - Uses usual PBR textures with metallic workflow.  
-> - Assumed that quad orientation conform with a standart Unity quad (GameObject > 3DObject > Quad)  
-> - Works with Unity orthographic camera.
-> - All animation handling in-shader  
-> - (!) Shader can't get shadows from outside to inside and uses FakeShadows that can be adjusted with properties. By default they are set from top to bottom.  
+Details:
+- Uses usual PBR textures with metallic workflow.  
+- Assumed that quad orientation conform with a standart Unity quad (GameObject > 3DObject > Quad)  
+- Works with Unity orthographic camera.
+- All animation handling in-shader  
+- (!) Shader can't get shadows from outside to inside and uses FakeShadows that can be adjusted with properties. By default they are set from top to bottom.  
 <br>
 
 Approximate performance results in general:
