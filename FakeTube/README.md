@@ -51,6 +51,8 @@ Features:
 
 <details><summary>Performance/Requirements:</summary>
 
-text
+Approximate results in general terms:
+- ~450 math for FakeTube Shader  &nbsp; vs  &nbsp; ~250 math Standart Unity Shader 
+- ~300 fps  for FakeTube Shader  &nbsp; &nbsp; &nbsp; vs  &nbsp; ~330 fps in empty scene (both for GTX1070 / fullHD)
 
 </details>
