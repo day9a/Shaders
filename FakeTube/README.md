@@ -26,7 +26,7 @@ It can be used as a flat decal snap to walls, floor or any objects to improve sc
 </table>
 <br>
 
-Details:
+### Details:
 - Uses usual PBR textures with metallic workflow.  
 - Assumed that quad orientation conform with a standart Unity quad (GameObject > 3DObject > Quad)  
 - Works with Unity orthographic camera.
@@ -34,7 +34,8 @@ Details:
 - (!) Shader can't get shadows from outside to inside and uses FakeShadows that can be adjusted with properties. By default they are set from top to bottom.  
 <br>
 
-Approximate performance results in general:
+### Perfomance:  
+These approximate results may different for each case:
 - ~450 math for FakeTube Shader  &nbsp; vs  &nbsp; ~250 math Standart Unity Shader 
 - ~300 fps  for FakeTube Shader  &nbsp; &nbsp; &nbsp; vs  &nbsp; ~330 fps in empty scene (both for GTX1070 / fullHD)  
 <br>
