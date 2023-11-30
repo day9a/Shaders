@@ -27,7 +27,7 @@ It can be used as a flat decal snap to walls, floor or any objects to improve sc
 <br>
 
 ### Details:
-- Uses usual PBR textures with metallic workflow.  
+- Uses usual PBR textures.  
 - Assumed that quad orientation conform with a standart Unity quad (GameObject > 3DObject > Quad)  
 - Works with Unity orthographic camera.
 - All animation handling in-shader  
