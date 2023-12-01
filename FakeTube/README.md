@@ -35,9 +35,6 @@ It can be used as a flat decal snap to walls, floor or any objects to improve sc
 - Works with Unity orthographic camera.  
 - ShaderGraph + custom hlsl function for URP/HDRP.  
 - Standart Surface Shader for Built-in.  
-  
-<br>
-
 - Have more than **30 Properties**, some of which are customizable.  
 <table>
   <tr>
@@ -65,7 +62,7 @@ It can be used as a flat decal snap to walls, floor or any objects to improve sc
 
 <br>
 
----
+
 
 <details><summary> 🔶 Show all properties / How it works:</summary>
   
@@ -97,7 +94,9 @@ It can be used as a flat decal snap to walls, floor or any objects to improve sc
 
 </details>
 
+
 ---
+<br>
 
 ### Perfomance:  
 These approximate results may different for each case:
