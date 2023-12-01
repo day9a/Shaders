@@ -30,10 +30,16 @@ It can be used as a flat decal snap to walls, floor or any objects to improve sc
 
 ### Details:
 - Uses usual PBR textures.  
+- All animation handling in-shader.  
 - Assumed that quad orientation conform with a standart Unity quad (GameObject > 3DObject > Quad)  
-- Works with Unity orthographic camera.
-- All animation handling in-shader  
-- (!) Shader can't get shadows from outside to inside and uses FakeShadows that can be adjusted with properties. By default they are set from top to bottom.  
+- Works with Unity orthographic camera.  
+- ShaderGraph + custom hlsl function for URP/HDRP.  
+- Standart Surface Shader for Built-in.  
+- Have more than **30 Properties**, some of which are customizable.  
+- (!) Shader can't get shadows from outside to inside and uses **FakeShadow** property that can be adjusted.  
+- By default **FakeShadow** are set from top to bottom.  
+- To disable usual shadows (URP): ShaderGraph > Graph Inspector > "Receive Shadows" checkbox and "Cast Shadows" checkbox.  
+- Use higher values for the **Emission Map Power** property in HDRP pipeline.  
 <br>
 
 ### Perfomance:  
