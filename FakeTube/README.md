@@ -39,11 +39,29 @@ It can be used as a flat decal snap to walls, floor or any objects to improve sc
 <br>
 
 - Have more than **30 Properties**, some of which are customizable.  
-- Use higher values for the **Emission Map Power** property in **HDRP pipeline**.  
-- To disable usual shadows (URP): ShaderGraph > Graph Inspector > "Receive Shadows" checkbox and "Cast Shadows" checkbox.  
-- (!) Shader can't get shadows from outside to inside and uses **FakeShadow** property that can be adjusted.  
-- By default **FakeShadow** are set from top to bottom.  
-<table> <tr> <td> <img src="imgs/FakeShadowSetup.gif" alt="FakeShadowSetup" width="256" height="256">  </td> </tr> </table>  
+<table>
+  <tr>
+    <td> 
+    <img src="imgs/FakeShadowSetup.gif" alt="FakeShadowSetup" width="256" height="256">  
+    </td>
+    <td>
+      - (!) Shader can't get shadows from outside to inside and uses <b>FakeShadow</b> property that can be adjusted.   
+      <br/>
+      - By default <b>FakeShadow</b> are set from top to bottom.  
+      <br/>
+      - To disable usual shadows (URP): ShaderGraph > Graph Inspector > "Receive Shadows" checkbox and "Cast Shadows" checkbox.  
+      <br/>
+    </td>
+   </tr>
+   <tr>
+    <td> 
+    <img src="imgs/FakeShadowSetup.gif" alt="FakeShadowSetup" width="256" height="256">  
+    </td>
+    <td>
+     - Use higher values for the <b>Emission Map Power</b> property in <b>HDRP</b> pipeline.  
+    </td>
+   </tr>
+ </table>
 
 <br>
 
@@ -58,9 +76,9 @@ It can be used as a flat decal snap to walls, floor or any objects to improve sc
     </td>
     <td>
       FakeTube properties:  <br>
-      - highlighted in Red depend on the current texture and is already configured.  <br>
-      - highlighted in Green can be adjusted slightly.  <br>
-      - highlighted in Blue - shadow can be adjusted depending on the light source in the scene.  <br>
+      - highlighted in <b>Red</b> depend on the current texture and is already configured.  <br>
+      - highlighted in <b>Green</b> can be adjusted slightly.  <br>
+      - highlighted in <b>Blue</b> - shadow can be adjusted depending on the light source in the scene.  <br>
        <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>  <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>  <br>
     </td>
   </tr>
@@ -71,8 +89,8 @@ It can be used as a flat decal snap to walls, floor or any objects to improve sc
     <td>
       - Tube separated to 5 parts: Top, Bottom, Walls, Gate A, Gate B where each part of the tube is match each part of the texture.  <br>  
       - In general, it looks a UV unwrap.  <br>  
-      - Parts interact with each other only in a certain way for reasons of perfomance/optimization.  <br>
-       <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+      - Parts interact with each other only in a certain way for reasons of perfomance/optimization.  <br>  
+       <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>  
     </td>
   </tr>
 </table>
