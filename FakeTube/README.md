@@ -7,7 +7,9 @@ It can be used as a flat decal snap to walls, floor or any objects to improve sc
 🔷 ` Full version: ` -  
 🔷 ` Blender free example: `  [FakeTube_free.blend](FakeTube_free.blend)  
 🔷 ` Unreal free example: ` *coming soon*   
-🔷 ` Unity free example: ` [FakeTubeFreeBuiltIn.unitypackage](FakeTubeFreeBuiltIn.unitypackage)  (unpack to Unity\Projects\YourProjects\Assets) (v2021-2023)  
+🔷 ` Unity free example: ` [FakeTubeFreeBuiltIn.unitypackage](FakeTubeFreeBuiltIn.unitypackage)  
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; [FakeTubeFreeURP.unitypackage](FakeTubeFreeURP.unitypackage)  
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; (unpack to Unity\Projects\YourProjects\Assets) (v2021-2023)  
  <br> 
 
 <table>
@@ -28,10 +30,22 @@ It can be used as a flat decal snap to walls, floor or any objects to improve sc
 
 ### Details:
 - Uses usual PBR textures.  
+- All animation handling in-shader.  
 - Assumed that quad orientation conform with a standart Unity quad (GameObject > 3DObject > Quad)  
-- Works with Unity orthographic camera.
-- All animation handling in-shader  
-- (!) Shader can't get shadows from outside to inside and uses FakeShadows that can be adjusted with properties. By default they are set from top to bottom.  
+- Works with Unity orthographic camera.  
+
+<br>
+
+- Have more than **30 Properties**, some of which are customizable.  
+- (!) Shader can't get shadows from outside to inside and uses **FakeShadow** property that can be adjusted.  
+- By default **FakeShadow** are set from top to bottom.  
+- To disable usual shadows (URP): ShaderGraph > Graph Inspector > "Receive Shadows" checkbox and "Cast Shadows" checkbox.  
+- Use higher values for the **Emission Map Power** property in HDRP pipeline.  
+
+<br>  
+
+- ShaderGraph + custom hlsl function for URP/HDRP.  
+- Standart Surface Shader for Built-in.  
 <br>
 
 ### Perfomance:  
