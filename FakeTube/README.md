@@ -47,12 +47,6 @@ It can be used as a flat decal snap to walls, floor or any objects to improve sc
 
 <br>
 
-### Perfomance:  
-These approximate results may different for each case:
-- ~450 math for FakeTube Shader  &nbsp; vs  &nbsp; ~250 math Standart Unity Shader 
-- ~300 fps  for FakeTube Shader  &nbsp; &nbsp; &nbsp; vs  &nbsp; ~330 fps in empty scene (both for GTX1070 / fullHD)  
-<br>
-
 ---
 
 <details><summary> 🔶 Show all properties / How it works:</summary>
@@ -84,4 +78,13 @@ These approximate results may different for each case:
 </table>
 
 </details>
+
+---
+
+### Perfomance:  
+These approximate results may different for each case:
+- ~450 math for FakeTube Shader  &nbsp; vs  &nbsp; ~250 math Standart Unity Shader 
+- ~300 fps  for FakeTube Shader  &nbsp; &nbsp; &nbsp; vs  &nbsp; ~330 fps in empty scene (both for GTX1070 / fullHD)  
+<br>
+
 
