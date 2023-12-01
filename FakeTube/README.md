@@ -1,4 +1,4 @@
-# FakeTube shader guide
+# FakeTube Shader Guide
 
 Single quad FakeTube shader.  
 Like a FakeInterior, but it's FakeTube!  
@@ -15,10 +15,10 @@ It can be used as a flat decal snap to walls, floor or any objects to improve sc
 <table>
   <tr>
     <td> 
-    <img src="imgs/cube_preview.gif" alt="result" width="256" height="256"> 
+    <img src="imgs/cube_preview.gif" alt="preview1" width="256" height="256"> 
     </td>
     <td>
-    <img src="imgs/ft_0_Preview.gif" alt="result" width="256" height="256"> 
+    <img src="imgs/ft_0_Preview.gif" alt="preview2" width="256" height="256"> 
     </td>
     <td>
      <a href="https://www.youtube.com/watch?v=IX7JCYn0P-Q"> 🔹 Youtube Preview 1 🔹 <a>  <br>
@@ -33,25 +33,36 @@ It can be used as a flat decal snap to walls, floor or any objects to improve sc
 - All animation handling in-shader.  
 - Assumed that quad orientation conform with a standart Unity quad (GameObject > 3DObject > Quad)  
 - Works with Unity orthographic camera.  
-
+- ShaderGraph + custom hlsl function for URP/HDRP.  
+- Standart Surface Shader for Built-in.  
+  
 <br>
 
 - Have more than **30 Properties**, some of which are customizable.  
-- (!) Shader can't get shadows from outside to inside and uses **FakeShadow** property that can be adjusted.  
-- By default **FakeShadow** are set from top to bottom.  
-- To disable usual shadows (URP): ShaderGraph > Graph Inspector > "Receive Shadows" checkbox and "Cast Shadows" checkbox.  
-- Use higher values for the **Emission Map Power** property in HDRP pipeline.  
+<table>
+  <tr>
+    <td> 
+    <img src="imgs/FakeShadowSetup.gif" alt="FakeShadowSetup" width="256" height="256">  
+    </td>
+    <td>
+      - (!) Shader can't get shadows from outside to inside and uses <b>FakeShadow</b> property that can be adjusted.   
+      <br/>
+      - By default <b>FakeShadow</b> are set from top to bottom.  
+      <br/>
+      - To disable usual shadows (URP): ShaderGraph > Graph Inspector > "Receive Shadows" checkbox and "Cast Shadows" checkbox.  
+      <br/>
+    </td>
+   </tr>
+   <tr>
+    <td> 
+    <img src="imgs/FakeShadowSetup.gif" alt="FakeShadowSetup" width="256" height="256">  
+    </td>
+    <td>
+     - Use higher values for the <b>Emission Map Power</b> property in <b>HDRP</b> pipeline.  
+    </td>
+   </tr>
+ </table>
 
-<br>  
-
-- ShaderGraph + custom hlsl function for URP/HDRP.  
-- Standart Surface Shader for Built-in.  
-<br>
-
-### Perfomance:  
-These approximate results may different for each case:
-- ~450 math for FakeTube Shader  &nbsp; vs  &nbsp; ~250 math Standart Unity Shader 
-- ~300 fps  for FakeTube Shader  &nbsp; &nbsp; &nbsp; vs  &nbsp; ~330 fps in empty scene (both for GTX1070 / fullHD)  
 <br>
 
 ---
@@ -65,9 +76,9 @@ These approximate results may different for each case:
     </td>
     <td>
       FakeTube properties:  <br>
-      - highlighted in Red depend on the current texture and is already configured.  <br>
-      - highlighted in Green can be adjusted slightly.  <br>
-      - highlighted in Blue - shadow can be adjusted depending on the light source in the scene.  <br>
+      - highlighted in <b>Red</b> depend on the current texture and is already configured.  <br>
+      - highlighted in <b>Green</b> can be adjusted slightly.  <br>
+      - highlighted in <b>Blue</b> - shadow can be adjusted depending on the light source in the scene.  <br>
        <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>  <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>  <br>
     </td>
   </tr>
@@ -78,11 +89,20 @@ These approximate results may different for each case:
     <td>
       - Tube separated to 5 parts: Top, Bottom, Walls, Gate A, Gate B where each part of the tube is match each part of the texture.  <br>  
       - In general, it looks a UV unwrap.  <br>  
-      - Parts interact with each other only in a certain way for reasons of perfomance/optimization.  <br>
-       <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+      - Parts interact with each other only in a certain way for reasons of perfomance/optimization.  <br>  
+       <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>  
     </td>
   </tr>
 </table>
 
 </details>
+
+---
+
+### Perfomance:  
+These approximate results may different for each case:
+- ~450 math for FakeTube Shader  &nbsp; vs  &nbsp; ~250 math Standart Unity Shader 
+- ~300 fps  for FakeTube Shader  &nbsp; &nbsp; &nbsp; vs  &nbsp; ~330 fps in empty scene (both for GTX1070 / fullHD)  
+<br>
+
 
