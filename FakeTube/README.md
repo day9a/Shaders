@@ -43,8 +43,7 @@ It can be used as a flat decal snap to walls, floor or any objects to improve sc
 - To disable usual shadows (URP): ShaderGraph > Graph Inspector > "Receive Shadows" checkbox and "Cast Shadows" checkbox.  
 - (!) Shader can't get shadows from outside to inside and uses **FakeShadow** property that can be adjusted.  
 - By default **FakeShadow** are set from top to bottom.  
-- <img src="imgs/FakeShadowSetup.gif" alt="FakeShadowSetup" width="256" height="256">   
-
+<table> <tr> <td> <img src="imgs/FakeShadowSetup.gif" alt="FakeShadowSetup" width="256" height="256">  </td> </tr> </table>  
 
 <br>
 
