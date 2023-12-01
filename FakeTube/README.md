@@ -15,10 +15,10 @@ It can be used as a flat decal snap to walls, floor or any objects to improve sc
 <table>
   <tr>
     <td> 
-    <img src="imgs/cube_preview.gif" alt="result" width="256" height="256"> 
+    <img src="imgs/cube_preview.gif" alt="preview1" width="256" height="256"> 
     </td>
     <td>
-    <img src="imgs/ft_0_Preview.gif" alt="result" width="256" height="256"> 
+    <img src="imgs/ft_0_Preview.gif" alt="preview2" width="256" height="256"> 
     </td>
     <td>
      <a href="https://www.youtube.com/watch?v=IX7JCYn0P-Q"> 🔹 Youtube Preview 1 🔹 <a>  <br>
@@ -33,19 +33,19 @@ It can be used as a flat decal snap to walls, floor or any objects to improve sc
 - All animation handling in-shader.  
 - Assumed that quad orientation conform with a standart Unity quad (GameObject > 3DObject > Quad)  
 - Works with Unity orthographic camera.  
-
+- ShaderGraph + custom hlsl function for URP/HDRP.  
+- Standart Surface Shader for Built-in.  
+  
 <br>
 
 - Have more than **30 Properties**, some of which are customizable.  
+- Use higher values for the **Emission Map Power** property in **HDRP pipeline**.  
+- To disable usual shadows (URP): ShaderGraph > Graph Inspector > "Receive Shadows" checkbox and "Cast Shadows" checkbox.  
 - (!) Shader can't get shadows from outside to inside and uses **FakeShadow** property that can be adjusted.  
 - By default **FakeShadow** are set from top to bottom.  
-- To disable usual shadows (URP): ShaderGraph > Graph Inspector > "Receive Shadows" checkbox and "Cast Shadows" checkbox.  
-- Use higher values for the **Emission Map Power** property in HDRP pipeline.  
+- <img src="imgs/FakeShadowSetup.gif" alt="FakeShadowSetup" width="256" height="256">   
 
-<br>  
 
-- ShaderGraph + custom hlsl function for URP/HDRP.  
-- Standart Surface Shader for Built-in.  
 <br>
 
 ### Perfomance:  
