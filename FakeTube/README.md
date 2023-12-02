@@ -55,7 +55,7 @@ It can be used as a flat decal snap to walls, floor or any objects to improve sc
     <img src="imgs/EmissionSetup.gif" alt="EmissionSetup" width="256" height="256">  
     </td>
     <td>
-     - Use higher values for the <b>Emission Map Power</b> property in <b>HDRP</b> pipeline.  
+     - <b>HDRP</b> pipeline has wider brightness values, so it is necessary to use higher values for the <b>Emission Map Power</b> property
     </td>
    </tr>
  </table>
