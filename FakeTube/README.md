@@ -7,7 +7,7 @@ It can be used as a flat decal snap to walls, floor or any objects to improve sc
 🔷 ` Full version:         ` <a href="https://day9.gumroad.com/l/faketube"> Gumroad <a>  
 🔷 ` Blender free example: ` [Blend file](FakeTube_free.blend)  
 🔷 ` Unreal free example:  ` *coming soon*   
-🔷 ` Unity free example:   ` [Built-in](FakeTubeFreeBuiltIn.unitypackage) &emsp; [URP](FakeTubeFreeURP.unitypackage) &emsp; (unpack to Unity\Projects\YourProjects\Assets) (v2021-2023)  
+🔷 ` Unity free example:   ` [Built-in](FakeTubeFreeBuiltIn.unitypackage) &emsp; [URP](FakeTubeFreeURP.unitypackage) &emsp; (unpack to Unity\Projects\YourProjects\Assets) (v2021.3+)  
 
 
 <table>
