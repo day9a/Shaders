@@ -65,7 +65,7 @@ Shader "Custom/FakePipeOld"
             float depth = up * AD / sqrt(1.0 - up * up);                    // pipe depth position
             // Remove walls distortion 
             float wallmask = wall.y < 0.0;
-            wall.x = acos(1.0 / sqrt(r) * wall.x) * 0.318;                  // make coordinates linear // 0.318 is a magic number
+            wall.x = acos(1.0 / sqrt(r) * wall.x) * 0.318;                  // make coordinates linear // 0.318 is a magic number // upd: just 1/PI
             wall.x = ((1.0 - wallmask) * wall.x + (1.0 - wallmask * wall.x) * wallmask + wallmask) * 0.5; // make coordinates from 0.0 to 1.0
             wall.x =  saturate(1.0 - wall.x);
             //
