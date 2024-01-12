@@ -2,7 +2,7 @@
 
 Allows to smoothly blend nearest frames on sprite sheets. Works both with and without motion vectors maps.
 
-[Example](https://cdn-animation.artstation.com/p/video_sources/001/067/657/unity-011.mp4)
+[Example](https://www.artstation.com/artwork/X1Kde0)
 
 1. Create new material use this shader (Custom/MotionVectorSimple)
 2. Add [textures](https://drive.google.com/drive/folders/1M1ydlMuAbfz37kagETDJxaPFEwFKYx3r)
