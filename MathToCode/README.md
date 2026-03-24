@@ -35,9 +35,11 @@
 ## Examples:
 #### Sigma ∑
 Just a loop, which means you need to iterate over all light sources and add up their brightness. #sigma
+
 $$
 L = \sum_{i=0}^{N} \text{light}_i
 $$
+
    ```cpp
 float totalLight = 0.0;
 for(int i = 0; i < N; i++) {
@@ -65,9 +67,11 @@ vec2 grad = vec2(
 ---
 #### Integral ∫ 
 This is a sum with small steps; it can be used, for example, when calculating blur or volumetric light. #integral
+
 $$
 \int_{0}^{1} f(x) \, dx
 $$
+
    ```cpp
 float integral = 0.0;
 float stepSize = 0.01; 
@@ -93,6 +97,7 @@ float redChannel = texture(iChannel0, uv + delta).r;
 
 #### Softmax
 This is an activation function in neural networks used to turn "raw" output numbers (logits) into a probability distribution.
+
 $$
 y_i = \frac{e^{x_i}}{\sum_{j=1}^{n} e^{x_j}}
 $$
